@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <style>
+        /* Gaya Umum */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle, #ff9a9e, #fad0c4, #ffecd2);
+            animation: bg-animation 10s infinite alternate;
+            color: #fff;
+            overflow-y: scroll;
+        }
+
+        @keyframes bg-animation {
+            0% { background: radial-gradient(circle, #ff9a9e, #fad0c4, #ffecd2); }
+            50% { background: radial-gradient(circle, #a1c4fd, #c2e9fb, #ffecd2); }
+            100% { background: radial-gradient(circle, #ff9a9e, #fbc2eb, #fad0c4); }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 50px;
+            padding-bottom: 100px;
+            text-align: center;
+        }
+
+        .card {
+            margin-top: 50px;
+            padding: 30px 20px;
+            background: rgba(255, 105, 180, 0.85);
+            border-radius: 15px;
+            width: 80%;
+            max-width: 450px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            animation: slide-in 1.5s ease-in-out;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0;
+            color: #fff5f8;
+            animation: text-glow 1.5s infinite alternate;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #ffebf0;
+            margin-top: 20px;
+        }
+
+        /* Gaya Foto Persegi */
+        .photo {
+            width: 100%;
+            max-width: 300px;
+            height: 300px;
+            margin-top: 15px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            object-fit: cover; /* Memastikan gambar sesuai 1:1 */
+        }
+
+        /* Animasi Slide In */
+        @keyframes slide-in {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Animasi Teks Glow */
+        @keyframes text-glow {
+            0%, 100% { text-shadow: 0 0 8px rgba(255, 255, 255, 0.8); }
+            50% { text-shadow: 0 0 15px rgba(255, 255, 255, 1); }
+        }
+
+        .scroll-indicator {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #ffebf0;
+            animation: bounce 2s infinite;
+        }
+
+        /* Animasi Scroll Indicator */
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+
+   <audio controls>
+    <source src="lagu.mp3" type="audio/mp3"/>
+   </audio>
+   
+  
+
+    <div class="container">
+        <div class="card">
+            <h1>🎉 Happy Birthday, 
+              Tasya Mawar Saragi!!! 🎉</h1>
+            <img src="8.jpg" alt="Foto Kenangan" class="photo">
+            <p> Hai Tasya selamat atas bertambah usiamu.
+              Tak terasa gadis yang lahir pada “RABU 09 NOVEMBER
+              2005” telah genap berusia 19 tahun.
+             </p>
+        </div>
+
+        <div class="scroll-indicator">Geser ke bawah untuk lebih banyak 🎂</div>
+
+        <div class="card">
+            <h1>Perenungan!!!</h1>
+            <img src="7.jpg" alt="Foto Perayaan" class="photo">
+            <p> Kelahiran yang penuh pertaruhan dari sosok seorang
+              IBU.Hari dimana dulu kita menanggis untuk pertama
+              kalinya,dan doa-doa mengalir deras dari kedua orang
+              tua.bukankah itu tanggal spesial.
+              Tidak ada salahnya sekedar mengucapkan hari
+              ulang tahun,menginggat hari lahir akan menjadi
+              perenungan sendiri bahwa usia kita terus bertambah
+             </p>
+        </div>
+
+        <div class="card">
+            <h1></h1>
+            <img src="6.jpg" alt="Hadiah Istimewa" class="photo">
+            <p>Selamat merayakan kecemasan-kecemasan di tangga berikutnya, selamat
+              berpetualang di level kehidupan selanjutnya, selamat berperang dengan
+              pertanyaan 'kapan' yang tidak ada ujungnya, selamat menjalani fase dimana
+              you not found anyone people can help your life, selamat berjuang sendirian,
+              selamat bertambah usiamu. Di hari jadimu ini aku hanya menitipkan do'a
+              untuk dirimu , semoga segala kekhawatiran dan kecemasan akan masa
+              depan segera reda, semoga kamu tidak terlalu memikirkan apa kata orang,
+              tidak sibuk membandingkan dirimu dengan orang lain lagi, aku ingin kamu
+              lebih mencintai dirimu sendiri, jadi lebih kuat, lebih panjang sabarnya,
+              lebih berani, lebih bijak serta menjadi lebih dewasa.
+              Semoga ini bukan ulang tahun terakhirmu sebab ada tahun-tahun yang
+              harus kamu lalui dengan orang yang kamu cintai dan ada mama yang harus
+              melihat satu persatu mimpimu menjadi nyata. Semoga Tuhan berkenan.</p>
+        </div>
+
+        <div class="card">
+            <h1>Wanita tangguh</h1>
+            <img src="4.jpg" alt="Foto Bersama" class="photo">
+            <p> Selamat bertambah dewasa,terimakasih sudah bertahan sampai saat ini,terimakasih telah
+              kuat,terimakasih telah melewati cobaan-cobaan dan rintangan.
+              Semamgat untuk melewati cobaan berikutnya,semangat untuk menikmati badai kehidupan,you’re
+              strong</p>
+        </div>
+        <div class="card">
+          <h1></h1>
+          <img src="2.jpg" alt="Foto Kenangan" class="photo">
+          <p>take care yaa, semoga hal-hal baik selalu beriringan
+            denganmu teruslah bertumbuh,kami akan melihatmu
+            berproses dangan jarak yang paling jauh dan akan
+            selalu menjadi orang yang paling bangga disetiap
+            prosesmu,Semoga tuhan selalu melindungi seyummu
+            dan hatimu.kami adalah orang yang paling senang
+            melihatmu baik-baik saja</p>
+      </div>
+      <div class="card">
+        <h1>Søren Kierkegaard</h1>
+        <img src="5.jpg" alt="Foto Kenangan" class="photo">
+        <p>"Life can only be understood backwards; but it must be lived forwards."
+          Ulang tahun adalah momen untuk merenung tentang masa lalu, namun mengingatkan kita bahwa
+          hidup terus berjalan ke depan. Setiap tahun adalah kesempatan baru untuk melangkah dengan lebih
+          bijaksana</p>
+      </div>
+      <div class="card">
+        <h1>Laut Bercerita</h1>
+        <img src="1.jpg" alt="Foto Kenangan" class="photo">
+        <p>"Selamat ulang tahun. Semoga cahaya kebenaran dan keberanian tetap menyala dalam
+          dirimu, meski di tengah gelap. Karena dengan keberanian, kita bukan hanya merayakan
+          hidup, tapi juga memperjuangkan makna keberadaannya."
+          
+         "Di hari usiamu bertambah, mungkin tidak ada pesta atau kue, tapi ada harapan besar
+          yang tumbuh di hati kami untuk dunia yang lebih adil dan bebas. Selamat ulang tahun.
+          Teruslah berdiri untuk suara-suara yang belum terdengar.
+        
+        _______“Leila Salikha Chudor”i
+        </p>
+      </div>
+      <div class="card">
+        <h1> </h1>
+        <img src="3.jpg" alt="Foto Kenangan" class="photo">
+        <p> Tetaplah menjadi gadis yang tangguh dan
+          selalu mempunyai ambisi-ambisi gila</p>
+      </div>
+    </div>
+</body>
+</html>
